@@ -38,7 +38,7 @@ public class Main {
     int[] arrayTask3 = {2, 8, 11, 10, 6, 3,};
     double avg = 0;
 	for(int i = 0; i<arrayTask3.length; i++) {
-        avg += arrayTask3[i];
+        	avg += arrayTask3[i];
     }
 		System.out.println("Task 3. Avg = "+avg /arrayTask3.length);
     //		Task4
