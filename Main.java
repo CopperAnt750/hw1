@@ -37,11 +37,7 @@ public class Main {
 //		this array. (Example -  array{1,2,4,1} -> avg = 2)
     int[] arrayTask3 = {2, 8, 11, 10, 6, 3,};
     double avg = 0;
-		for(
-    int i = 0;
-    i<arrayTask3.length;i++)
-
-    {
+	for(int i = 0; i<arrayTask3.length; i++) {
         avg += arrayTask3[i];
     }
 		System.out.println("Task 3. Avg = "+avg /arrayTask3.length);
@@ -50,24 +46,16 @@ public class Main {
 //		by 0. Result should be  next: {3,2,0,1,4,0,8,0}
     int[] arrayTask4 = {3, 2, 3, 1, 4, 2, 8, 3};
     int[] duplicate = new int[arrayTask4.length];
-		for(
-    int i = 0;
-    i<arrayTask4.length;i++)
-
-    {
+       for(int i = 0; i < arrayTask4.length; i++) {
         for (int j = 0; j < arrayTask4.length; j++) {
             if (i != j && arrayTask4[i] == arrayTask4[j]) {
                 arrayTask4[j] = 0;
             }
         }
     }
-		System.out.println("Task4 ");
-		for(
-    int i = 0;
-    i<arrayTask4.length;i++)
-
-    {
-        System.out.println(arrayTask4[i]);
-    }
+	System.out.println("Task4 ");
+	for(int i = 0;i<arrayTask4.length; i++) {
+        	System.out.println(arrayTask4[i]);
+    	}
 }
 }
